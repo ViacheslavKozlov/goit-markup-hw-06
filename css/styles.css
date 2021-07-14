@@ -749,6 +749,7 @@ footer .container {
   background-image: url(../images/check.svg);
   background-size: contain;
   background-origin: border-box;
+  background-position: center;
   border-color: var(--active-color);
   background-color: var(--active-color);
 }
