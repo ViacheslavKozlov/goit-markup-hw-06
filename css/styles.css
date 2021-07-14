@@ -689,8 +689,7 @@ footer .container {
 
   color: rgba(117, 117, 117, 0.5);
 }
-
-.modal-form-fields input:hover,
+/* .modal-form-fields input:hover,
 .modal-form-fields textarea:hover,
 .modal-form-fields input:focus,
 .modal-form-fields textarea:focus {
@@ -700,6 +699,13 @@ footer .container {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   cursor: pointer;
+} */
+.form-input:focus,
+.form-input:hover {
+  border-color: var(--active-color);
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-fields .form-field:hover svg,
 .modal-form-fields .form-field:focus svg {
