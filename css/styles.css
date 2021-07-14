@@ -621,7 +621,7 @@ footer .container {
 
   cursor: pointer;
 }
-.close-button:hover svg{
+.close-button:hover svg {
   fill: var(--active-color);
   cursor: pointer;
   transition-duration: 250ms;
@@ -689,19 +689,14 @@ footer .container {
 
   color: rgba(117, 117, 117, 0.5);
 }
-/* .modal-form-fields input:hover,
-.modal-form-fields textarea:hover,
-.modal-form-fields input:focus,
-.modal-form-fields textarea:focus {
-  border-color: var(--active-color);
-  transition-property: border-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  cursor: pointer;
-} */
+.form-input {
+  outline: none;
+}
+.form-input:focus + svg > use,
+.form-input:hover + svg > use, 
 .form-input:focus,
 .form-input:hover {
+  fill: var(--active-color);
   border-color: var(--active-color);
   transition-property: border-color;
   transition-duration: 250ms;
